@@ -1,3 +1,4 @@
+import 'package:application_1/app_constants/text_styles/app_text_styles.dart';
 import 'package:flutter/material.dart';
 import '../../app_constants/colors/app_colors.dart';
 
@@ -22,14 +23,13 @@ class CustomTextButton extends StatelessWidget {
           borderRadius: const BorderRadius.all(Radius.circular(12)),
         ),
         child: Padding(
-          padding:
-              const EdgeInsets.symmetric(horizontal: 120.0, vertical: 15.0),
+          padding: const EdgeInsets.symmetric(
+            horizontal: 120.0,
+            vertical: 15.0,
+          ),
           child: Text(
-            'Сан:  ${number.toString()}',
-            style: const TextStyle(
-              fontSize: 22.0,
-              fontWeight: FontWeight.bold,
-            ),
+            'cан:  ${number.toString()}',
+            style: AppTextStyles.buttonText,
           ),
         ),
       ),
