@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:application_1/my_app.dart';
 
 class CounterApp extends StatefulWidget {
   const CounterApp({Key key}) : super(key: key);
@@ -13,7 +12,7 @@ class StatefulSabakBarakchasy extends State<CounterApp> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Center(
+        title: const Center(
             child: Text(
           'header',
           style: TextStyle(fontSize: 43.0),
@@ -23,7 +22,7 @@ class StatefulSabakBarakchasy extends State<CounterApp> {
         height: MediaQuery.of(context).size.height,
         width: MediaQuery.of(context).size.width,
         color: Colors.greenAccent,
-        child: Center(
+        child: const Center(
           child: Text(
             'body',
             style: TextStyle(fontSize: 42.0),
@@ -35,7 +34,7 @@ class StatefulSabakBarakchasy extends State<CounterApp> {
           color: Colors.redAccent,
           child: Center(
               child: Column(
-            children: [
+            children: const [
               Text(
                 'footer',
                 style: TextStyle(fontSize: 42.0),
