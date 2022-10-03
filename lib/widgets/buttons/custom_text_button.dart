@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import '../../app_constants/colors/app_colors.dart';
 
 class CustomTextButton extends StatelessWidget {
@@ -26,7 +25,7 @@ class CustomTextButton extends StatelessWidget {
           padding:
               const EdgeInsets.symmetric(horizontal: 120.0, vertical: 15.0),
           child: Text(
-            'сан:  ${number.toString()}',
+            'Сан:  ${number.toString()}',
             style: const TextStyle(
               fontSize: 22.0,
               fontWeight: FontWeight.bold,
