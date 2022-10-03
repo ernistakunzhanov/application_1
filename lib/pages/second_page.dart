@@ -1,5 +1,4 @@
 import 'package:application_1/app_constants/colors/app_colors.dart';
-import 'package:application_1/app_constants/text_styles/app_text_styles.dart';
 import 'package:application_1/widgets/buttons/custom_text_button.dart';
 import 'package:flutter/material.dart';
 import '../app_constants/strings/app_string.dart';
@@ -13,8 +12,10 @@ class SecondPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
-      appBar: const CustomAppBar(title: AppString.tapshyrma02),
+      backgroundColor: AppColors.mainColor,
+      appBar: const CustomAppBar(
+        title: AppString.tapshyrma02,
+      ),
       body: Center(
         child: CustomTextButton(
           number: number,
