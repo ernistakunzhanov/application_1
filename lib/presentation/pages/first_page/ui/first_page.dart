@@ -146,15 +146,15 @@ class _FirstPageState extends State<FirstPage> {
     );
   }
 
-  void _changeNumber(bool _isAdd) {
-    if (_isAdd) {
-      setState(() {
-        _number++;
-      });
-    } else {
-      setState(() {
-        _number--;
-      });
-    }
-  }
+  // void _changeNumber(bool _isAdd) {
+  //   if (_isAdd) {
+  //     setState(() {
+  //       _number++;
+  //     });
+  //   } else {
+  //     setState(() {
+  //       _number--;
+  //     });
+  //   }
+  // }
 }
