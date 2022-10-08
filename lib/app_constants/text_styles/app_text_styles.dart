@@ -6,11 +6,12 @@ class AppTextStyles {
   static const TextStyle appBarTextStyle = TextStyle(
     color: AppColors.black,
     fontSize: 20.0,
+    fontWeight: FontWeight.bold,
   );
 
   static const TextStyle buttonText = TextStyle(
     fontSize: 22.0,
-    color: AppColors.black,
+    color: AppColors.white,
     fontWeight: FontWeight.bold,
   );
 }

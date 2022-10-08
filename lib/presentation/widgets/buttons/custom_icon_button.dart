@@ -22,7 +22,7 @@ class CustomIconButton extends StatelessWidget {
           borderRadius: BorderRadius.all(Radius.circular(12)),
         ),
         elevation: 1,
-        primary: iconBgColor ?? AppColors.blueDark,
+        primary: iconBgColor ?? AppColors.secondaryColor,
         padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 11),
       ),
     );
